@@ -28,6 +28,7 @@ img {
 }
 
 p {
+    text-align: justify;
     color: #555;
     margin-bottom: 20px;
     line-height: 1.7;
@@ -660,8 +661,8 @@ a:hover {
     background-size: cover;
     position: absolute;
     left: 50%;
-    /* top: 50px; */
-    padding: 30px 0;
+    /* top: 50px; 
+    padding: 30px 0;*/
     transform: translateX(-50%);
     border-radius: 4px;
     z-index: 3;
@@ -1657,7 +1658,7 @@ a:hover {
 }
 
 .icon-box:hover {
-    background: #fbc50b;
+    background: #119b4b;
     border-color: transparent;
 }
 
@@ -2053,7 +2054,7 @@ a:hover {
 }
 
 .gallery-grid li figure {
-    height: 250px;
+    height: 300px;
     width: 100%;
     float: left;
     margin: 0;
@@ -3242,8 +3243,7 @@ only screen and (max-device-width: 767px) {
 }
 .custom-p {
     border-radius: 15px;
-    background: #fbc50b;
-    color: #000;
+   color: #000;
     font-family: "Oduda";
     padding: 10px;
     min-height: 320px;
@@ -3267,4 +3267,13 @@ only screen and (max-device-width: 767px) {
     border-radius: 20px;
     border: 3px solid #009a4e;
   }
-  
+  .custom-silde-p {
+    border-radius: 0 0 30px 30px;
+    background: #fbc50b;
+    color: #000;
+    font-family: "Oduda";
+    /* padding: 10px; */
+    /* min-height: 320px; */
+    text-align: center;
+    cursor: pointer;
+}
