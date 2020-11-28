@@ -3277,3 +3277,17 @@ only screen and (max-device-width: 767px) {
     text-align: center;
     cursor: pointer;
 }
+/* owne css */
+.content-section2 {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    position: relative;
+    background-size: cover !important;
+}
+
+.side-contents h2 {
+    font-size: 40px;
+    color: #009a4e;
+    font-family: "Oduda";
+}
